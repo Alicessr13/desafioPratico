@@ -1,0 +1,14 @@
+C:\Users\alici\Documents\csharp\desafioPratico\ConsoleApp1\bin\Debug\net8.0\desafios.exe
+C:\Users\alici\Documents\csharp\desafioPratico\ConsoleApp1\bin\Debug\net8.0\desafios.deps.json
+C:\Users\alici\Documents\csharp\desafioPratico\ConsoleApp1\bin\Debug\net8.0\desafios.runtimeconfig.json
+C:\Users\alici\Documents\csharp\desafioPratico\ConsoleApp1\bin\Debug\net8.0\desafios.dll
+C:\Users\alici\Documents\csharp\desafioPratico\ConsoleApp1\bin\Debug\net8.0\desafios.pdb
+C:\Users\alici\Documents\csharp\desafioPratico\ConsoleApp1\obj\Debug\net8.0\desafios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alici\Documents\csharp\desafioPratico\ConsoleApp1\obj\Debug\net8.0\desafios.AssemblyInfoInputs.cache
+C:\Users\alici\Documents\csharp\desafioPratico\ConsoleApp1\obj\Debug\net8.0\desafios.AssemblyInfo.cs
+C:\Users\alici\Documents\csharp\desafioPratico\ConsoleApp1\obj\Debug\net8.0\desafios.csproj.CoreCompileInputs.cache
+C:\Users\alici\Documents\csharp\desafioPratico\ConsoleApp1\obj\Debug\net8.0\desafios.dll
+C:\Users\alici\Documents\csharp\desafioPratico\ConsoleApp1\obj\Debug\net8.0\refint\desafios.dll
+C:\Users\alici\Documents\csharp\desafioPratico\ConsoleApp1\obj\Debug\net8.0\desafios.pdb
+C:\Users\alici\Documents\csharp\desafioPratico\ConsoleApp1\obj\Debug\net8.0\desafios.genruntimeconfig.cache
+C:\Users\alici\Documents\csharp\desafioPratico\ConsoleApp1\obj\Debug\net8.0\ref\desafios.dll
