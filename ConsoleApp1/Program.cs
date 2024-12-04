@@ -1,5 +1,8 @@
-﻿using System.Runtime.Intrinsics.X86;
+﻿using System.Runtime.ConstrainedExecution;
+using System.Runtime.Intrinsics.X86;
+using System.Security.Cryptography;
 using Desafios;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 class Program
 {
@@ -52,5 +55,59 @@ class Program
 
         resultado = Calculadora.Media(valor1, valor2);
         Console.WriteLine($"Resultado da media: {resultado}");
+
+        //4 - Crie um programa em que o usuário digita uma ou mais palavras e é exibido a quantidade de caracteres que a palavra inserida tem.
+        Console.WriteLine("\nDigite a palavra para ser contado os caracteres: ");
+        string palavra = Console.ReadLine();
+
+        int quantLetras = palavra.Count(char.IsLetter);
+
+        Console.WriteLine($"\nA palavra digitada tem {quantLetras} caracteres");
+
+        //5 - 1. Crie um programa em que o usuário precisa digitar a placa de um veículo e o programa verifica se a placa é válida, seguindo o padrão brasileiro válido até 2018:
+        //-A placa deve ter 7 caracteres alfanuméricos;
+        //-Os três primeiros caracteres são letras(maiúsculas ou minúsculas);
+        //-Os quatro últimos caracteres são números;
+        //Ao final, o programa deve exibir*** Verdadeiro***se a placa for válida e ***Falso * **caso contrário.
+
+        Console.WriteLine("Digite a placa: ");
+        string placa = Console.ReadLine();
+
+        Console.WriteLine(VerificaPlaca.Verificacao(placa));
+
+        //1.Crie um programa que solicita ao usuário a exibição da data atual em diferentes formatos:
+        //-Formato completo(dia da semana, dia do mês, mês, ano, hora, minutos, segundos).
+        //-Apenas a data no formato "01/03/2024".
+        //- Apenas a hora no formato de 24 horas.
+        //- A data com o mês por extenso.
+
+        Console.WriteLine("\nEscolha o formato de exibição da data: ");
+        Console.WriteLine("Formato completo = 1 \nApenas a data no formato \"01/03/2024\" = 2 \nApenas a hora no formato de 24 horas = 3 \nA data com o mês por extenso = 4");
+        string opcao = Console.ReadLine();
+
+        DateTime hoje = DateTime.Now;
+
+        switch (opcao) 
+        {
+            case "1":
+                Console.WriteLine(hoje.ToString("dddd, dd 'de' MMMM 'de' yyyy HH:mm:ss"));
+                break;
+
+            case "2":
+                Console.WriteLine(hoje.ToString("d"));
+                break;
+
+            case "3":
+                Console.WriteLine(hoje.ToString("t"));
+                break;
+
+            case "4":
+                Console.WriteLine(hoje.ToString("dd 'de' MMMM 'de' yyyy"));
+                break;
+
+            default:
+                Console.WriteLine("Opcão indisponivel");
+                break;
+        }
     }
 }

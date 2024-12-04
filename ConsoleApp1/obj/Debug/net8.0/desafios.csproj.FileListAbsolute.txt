@@ -12,3 +12,4 @@ C:\Users\alici\Documents\csharp\desafioPratico\ConsoleApp1\obj\Debug\net8.0\refi
 C:\Users\alici\Documents\csharp\desafioPratico\ConsoleApp1\obj\Debug\net8.0\desafios.pdb
 C:\Users\alici\Documents\csharp\desafioPratico\ConsoleApp1\obj\Debug\net8.0\desafios.genruntimeconfig.cache
 C:\Users\alici\Documents\csharp\desafioPratico\ConsoleApp1\obj\Debug\net8.0\ref\desafios.dll
+C:\Users\alici\Documents\csharp\desafioPratico\ConsoleApp1\obj\Debug\net8.0\Desafios.sourcelink.json
